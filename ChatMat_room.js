@@ -14,7 +14,7 @@ var firebaseConfig = {
 
 
 var user_name=localStorage.getItem("user_name");
-document.getElementById("User_Name").innerHTML="Welcome "+user_name;
+document.getElementById("User_Name").innerHTML="Welcome"+user_name;
 
 
 function Add_Room(){
